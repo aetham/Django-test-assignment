@@ -17,7 +17,7 @@ To run the project locally.
 3. Scroll down to line 123 and change the email configuration to your own email (the current configuration has been set to gmail)
 4. In inventory/views.py line 26 has instructions for needed data
 5. Cd into it
-6. pip install -r requirements.txt
+6. At ?? pip install -r requirements.txt
 7. Run with command python manage.py runserver
 8. Go to you browser and insert http://127.0.0.1:8000/
 
