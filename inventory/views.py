@@ -24,9 +24,9 @@ def home_view(request, *args, **kwargs):
             # Send the e-mail
             mail = EmailMessage(
                 # Title of the email
-                'Queried produced',
+                'Insert the title of the email here',
                 # Message of the email
-                'The product that was queried',
+                'Insert the message of the email here',
                 # From WHO the message was sent from.
                 # Needs to be the same email as in the settings.py email configuration
                 'Insert email address here',
