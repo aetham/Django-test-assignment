@@ -13,9 +13,9 @@ A simple Django application where you can make queries to the database through a
 To run the project locally.
 1. Clone this repo
 (Steps 2 - 4 are optional, but required if a user wishes to send the queried data to an email with PDF)
-2. Go to folder djangobackend -> settings.py
+2. In djangobackend/settings.py, change the email to your email at 123
 3. Scroll down to line 123 and change the email configuration to your own email (the current configuration has been set to gmail)
-4. Go to folder inventory -> views.py follow instructions on line 26 Insert needed data.
+4. In invemtory/views.py line 26 has instructions for needed data
 5. Cd into it.
 6. pip install -r requirements.txt
 7. run with command python manage.py runserver
