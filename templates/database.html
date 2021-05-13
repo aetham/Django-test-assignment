@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Database information</h1>
+     <table style="width:50%" >
+          <tr>
+            <th>Product ID</th>
+            <th>Product name</th>
+            <th>Product quantity</th>
+            <th>Client ID</th>
+          </tr>
+             {% for product in products %}
+                 <tr align="center">
+                     <td>{{ product.product_id }}</td>
+                     <td>{{ product.product_name }}</td>
+                     <td>{{ product.product_quantity }}</td>
+                     <td>{{ product.client_id }}</td>
+                 </tr>
+            {% endfor %}
+     </table>
+    <button onclick="myFunction()">Main page</button>
+<script>
+function myFunction() {
+  location.replace("/")
+}
+</script>
+{% endblock %}
