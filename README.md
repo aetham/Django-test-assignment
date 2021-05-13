@@ -12,7 +12,6 @@ A simple Django application where you can make queries to the database through a
 ## Getting Started <a name = "getting_started"></a>
 To run the project locally.
 1. Clone this repo
-
 (Steps 2 - 4 are optional, but required if a user wishes to send the queried data to an email with PDF)
 2. Go to folder djangobackend -> settings.py
 3. Scroll down to line 123 and change the email configuration to your own email (the current configuration has been set to gmail)
