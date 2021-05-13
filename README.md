@@ -16,10 +16,10 @@ To run the project locally.
 2. In djangobackend/settings.py, change the email to your email at 123
 3. Scroll down to line 123 and change the email configuration to your own email (the current configuration has been set to gmail)
 4. In inventory/views.py line 26 has instructions for needed data
-5. Cd into it.
+5. Cd into it
 6. pip install -r requirements.txt
-7. run with command python manage.py runserver
-8. go to you browser and insert http://127.0.0.1:8000/
+7. Run with command python manage.py runserver
+8. Go to you browser and insert http://127.0.0.1:8000/
 
 ## Usage <a name = "usage"></a>
 To use the full functionality of this project you need to configure the email settings.py located in djangobackend folder.
